@@ -10,7 +10,7 @@
 |                    | AND immediate              | `andi $s1, $s2, 99`   |                                          |                                   |
 |                    | OR immdiate                | `ori ...`             |                                          |                                   |
 |                    | shift left logical         | `sll $s1, $s2, 2`     | other way of Multiply<br>`s1 = s2 * 2^2` |                                   |
-|                    | shift right logical        | `sri $s1, $s2, 3`     | other way to div<br>`s1 = s2 / 2^3`      |                                   |
+|                    | shift right logical        | `srl $s1, $s2, 3`     | other way to div<br>`s1 = s2 / 2^3`      |                                   |
 | Conditional Branch | branch equal               | `beq $s1, $s2, Label` | if true, go to Label                     |                                   |
 |                    | branch not equal           | `bne $s1, $s2, Label` | if true (that s1 != s2), go to label     |                                   |
 |                    | set on less than           | `$slt $s1, $s2, $s3`  |                                          |                                   |
